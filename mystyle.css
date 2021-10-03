@@ -1,0 +1,61 @@
+body {
+  background-color: #fbfaee;
+}
+
+h1 {
+  color: #ff5757;
+  margin-left: 20px;
+}
+
+p {
+  color: rgb(68, 68, 68);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ff5757;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ff5757;
+  color: rgb(68, 68, 68);
+}
+
+.topnav a.active {
+  background-color: #ff5757;
+  color: #fbfaee;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background-color: #ff5757;
+}
