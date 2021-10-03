@@ -79,6 +79,9 @@ p {
 
 .container {
   border-radius: 5px;
+  background-image: url("cobb.png");
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 body {
